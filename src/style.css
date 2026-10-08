@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+
+
+    
+}
+
+#hero > h1{
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+#hero > h2{
+    text-align: center;
+    color: white;
+}
+
+#hero > svg{
+    width: 100px;
+    margin-top: -170px;
+    padding: 30px;
+    color: white;  
+}
+
+#villain > h3{
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
