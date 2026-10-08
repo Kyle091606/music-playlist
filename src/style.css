@@ -19,14 +19,21 @@
 #hero > svg{
     width: 100px;
     margin-top: -170px;
-    padding: 30px;
+    margin-left: 550px;
+    padding: 50px;
     color: white;  
 }
 
+#villain{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
 #villain > h3{
-    color: white;
-    background-color: grey;
-    padding: 10px;
+    color: black;
+    background-color: white;
+    padding: 15px;
     border-radius: 10px;
-    margin: 30px;
+    cursor: pointer;
 }

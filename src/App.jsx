@@ -12,20 +12,17 @@ function App() {
         </svg>
 
       </section>
-         <img src="/malcolm.jpg" alt="hero" />
-
-
       <section id="villain">
-        <h3>1. Song Title</h3>
-        <h3>2. Song Title</h3>
-        <h3>3. Song Title</h3>
-        <h3>4. Song Title</h3>
-        <h3>5. Song Title</h3>
-        <h3>6. Song Title</h3>
-        <h3>7. Song Title</h3>
-        <h3>8. Song Title</h3>
-        <h3>9. Song Title</h3>
-        <h3>10. Song Title</h3>
+        <h3>1. Chest Pain - Malcolm Todd </h3>
+        <h3>2. Sweet Boy - Malcolm Todd </h3>
+        <h3>3. Lifetime(Reimagined) - Ben&Ben</h3>
+        <h3>4. Leaves(Reimagined) - Ben&Ben</h3>
+        <h3>5. About You - The 1975</h3>
+        <h3>6. it's Not Living(if it's not with you) - The 1975</h3>
+        <h3>7. No Other Heart - Mac DeMarco</h3>
+        <h3>8. Heart To Heart - Mac DeMarco</h3>
+        <h3>9. Amazing - Rex Orange County</h3>
+        <h3>10. THE SHADE - Rex </h3>
 
       </section>
 
