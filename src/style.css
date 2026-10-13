@@ -1,39 +1,126 @@
-*{
-    background-color: black;
-
-
-    
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#hero > h1{
-    padding: 20px;
-    text-align: center;
+body {
+    background: #090909;
     color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    padding: 30px 20px;
 }
 
-#hero > h2{
-    text-align: center;
-    color: white;
-}
-
-#hero > svg{
+#hero > svg {
     width: 100px;
-    margin-top: -170px;
-    margin-left: 550px;
-    padding: 50px;
-    color: white;  
+    height: 100px;
+    color: #a855f7;
+    margin-bottom: 20px;
 }
 
-#villain{
-    width: 500px;
+#hero {
     text-align: center;
-    margin: auto;
+    padding: 50px 20px 40px;
 }
 
-#villain > h3{
-    color: black;
-    background-color: white;
-    padding: 15px;
+#hero > h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#hero > h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin: 18px auto 0;
     border-radius: 10px;
+    background: linear-gradient(90deg, #a855f7, #6366f1);
+}
+
+#hero > h2 {
+    color: #999;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#villain {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#villain > h3 {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    padding: 20px 24px;
+    border: 1px solid #252525;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #181818, #111111);
+    color: #e5e5e5;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
     cursor: pointer;
+
+}
+
+#villain > h3:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #241832, #171323);
+    border-color: #8b5cf6;
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.12);
+    color: #ffffff;
+}
+
+#villain > h3:nth-child(3n + 1) {
+    border-left: 4px solid #a855f7;
+}
+
+#villain > h3:nth-child(3n + 2) {
+    border-left: 4px solid #6366f1;
+}
+
+#villain > h3:nth-child(3n) {
+    border-left: 4px solid #06b6d4;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    #hero {
+        padding: 40px 5px 30px;
+    }
+
+    #hero > h1 {
+        font-size: 2rem;
+    }
+
+    #hero > h2 {
+        font-size: 0.9rem;
+    }
+
+    #villain {
+        gap: 10px;
+    }
+
+    #villain > h3 {
+        padding: 17px 14px;
+        min-height: 65px;
+        font-size: 0.88rem;
+        border-radius: 11px;
+    }
 }
